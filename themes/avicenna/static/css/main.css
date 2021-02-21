@@ -1,0 +1,191 @@
+/* Import fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: #333;
+  line-height: 1.5;
+  font-size: 0.9em;
+}
+
+a {
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  color: #a00;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+span {
+    display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* distance between sections */
+h1, h2, h3, h4 , h5, h6 {
+  font-family: "Open Sans", raleway, sans-serif;
+  line-height: 1.2;
+  color: #330;
+  font-weight: 800;
+/*  margin-bottom: 0.9em;*/
+  margin-top: 3.25em;
+}
+
+
+/* section names */
+h4 {
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+
+/* leave alone */
+ul.flat {
+  margin: 0;
+  padding: 0;
+}
+
+/* title/email spacing */
+ul.flat li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+}
+
+/* indentation for projects */
+ul {
+  list-style: disc inside;
+  padding-left: 1em;
+}
+
+/* space between project descriptions */
+.introduction ul li {
+  margin-bottom: 0.75em;
+}
+
+.introduction ul li p {
+  display: inline;
+}
+
+.wrapper {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 3em;
+}
+
+.header .profile_image {
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -1em;
+  max-width: 35%;
+  height: auto;
+  border-radius: 50%;
+  border: 8px solid #e0e0e0;
+/*  float: left; */
+}
+
+/* this control name size */
+.header h1,
+.header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+
+/* this controls space between menu and everything else */
+.header nav ul,
+.header nav li {
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+/* this controls email address */
+.header .site-affilation .email {
+  /* color: #a00; */
+  font-size: 1em;
+  display: block;
+  font-family: "Inconsolata";
+  font-weight: bolder;
+}
+
+/* this controls affiliation */
+.header .site-affilation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .site-affilation .position {
+   color: #a00; 
+   font-size: 1em; 
+   display: block; 
+   font-family: "Open Sans";
+/*   font-weight: bolder; */
+}
+
+/* this controls icons menu */
+.header .site-affilation nav ul svg {
+  max-height: 1em;
+}
+
+/* publication authors */
+.collaborators {
+  font-size: 0.95em;
+  margin-left: .9em;
+  margin-top: .1em;
+}
+
+.year {
+  font-size: 1.2em;
+  margin-bottom: -.6em;
+}
+
+.project {
+  margin: .5em -0.25em 0em;
+}
+
+.publications {
+  margin-left: -0.25em;
+}
+
+.code_blog {
+    font-family: "Inconsolata";
+    font-size: 0.9em;
+    margin: 0em .9em 0em;
+}
+
+.blog_cv {
+    font-family: "Inconsolata";
+    font-size: 17px;
+    /* margin: 0em .9em 0em; */
+}
+
+.project_description {
+     margin: .5em .9em 0em;
+}
+
+.footer {
+  text-align: right;
+  font-size: 0.75em;
+  color: #999;
+  border-top: 1px solid #f4f4f4;
+  padding: 20px 0;
+  margin-top: 40px;
+}
