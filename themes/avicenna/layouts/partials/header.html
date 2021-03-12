@@ -9,9 +9,11 @@
 	<title>{{ $title }} - {{ $siteTitle }}</title>
 	{{- end -}}
 
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+<!--
+    This set of feather-icons does not include an icon for linkedin.
+    I will have to kill a kitten and use JS to convert from SVG...
+    
+    <link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_o5hd5vvqpoqiwwmi.css">-->
 
 	<link rel="apple-touch-icon" sizes="180x180" href={{ "apple-touch-icon.png" | absURL }}>
 	<link rel="icon" type="image/png" sizes="32x32" href={{ "favicon-32x32.png" | absURL }}>
@@ -28,19 +30,17 @@
 
 	{{- template "_internal/opengraph.html" . -}}
 	{{- template "_internal/twitter_cards.html" . -}}
-<!--	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">-->
 
-<!--	<link rel="stylesheet" type="text/css" media="screen" href={{ "css/normalize.css" | absURL }} />-->
 	<link rel="stylesheet" type="text/css" media="screen" href={{ "css/main.css" | absURL }}/>
 
 	{{ range .Site.Params.custom_css -}}
 	<link rel="stylesheet" href="{{ . | absURL }}">
 	{{- end }}
 
+    <!--I hate JS, but the fonts look so nice...-->
 	{{- if and (isset .Site.Params "social") (isset .Site.Params "feathericonscdn") (eq .Site.Params.featherIconsCDN true) -}}
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 	{{- else if (isset .Site.Params "social") -}}
 	<script src={{ "js/feather.min.js" | absURL }}></script>
 	{{- end -}}
-	<script src={{ "js/main.js" | absURL }}></script>
 </head>
