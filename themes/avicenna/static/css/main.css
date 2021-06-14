@@ -1,10 +1,10 @@
 /* Import fonts */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 200;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 100;
   color: #333;
   line-height: 1.5;
   font-size: 0.9em;
@@ -33,10 +33,10 @@ a:hover {
 
 /* distance between sections */
 h1, h2, h3, h4 , h5, h6 {
-  font-family: "Open Sans", raleway, sans-serif;
+  font-family: "Work Sans", raleway, sans-serif;
   line-height: 1.2;
   color: #330;
-  font-weight: 800;
+  font-weight: black;
 /*  margin-bottom: 0.9em;*/
   margin-top: 3.25em;
 }
@@ -136,7 +136,7 @@ ul {
    color: #a00; 
    font-size: 1em; 
    display: block; 
-   font-family: "Open Sans";
+   font-family: "Work Sans";
 /*   font-weight: bolder; */
 }
 
