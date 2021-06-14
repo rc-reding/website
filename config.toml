@@ -1,0 +1,209 @@
+baseURL = "https://stanford.edu/~reding/"
+languageCode = "en-gb"
+title = "Carlos Reding, PhD"
+theme = "avicenna"
+#googleAnalytics = "UA-1234-6"
+#timeout=3000
+
+[params]
+  subtitle= "Research Fellow"
+  interests="Technology development [hardware+software], Quantitative Biology, Experimental Evolution"
+  cv_name= "files/Reding_CV.pdf"
+  blog="http://myblog.edu"
+
+[[params.affilation]]
+  name = "Stanford University"
+  position = "Research Fellow"
+  contact = "reding [at] stanford.edu"
+
+[[params.social]]
+  iconset = "feather"
+  icon = "github"
+  name = "GitHub"
+  url = "https://github.com/rc-reding"
+
+[[params.social]]
+  iconset = "feather"
+  icon = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/rc_reding"
+
+
+[[params.social]]
+  iconset = "feather"
+  icon = "linkedin"
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/rc-reding/"
+
+
+[[params.introduction.paragraph]]
+  text="""I am a scientist within the Department of Genetics at Stanford
+  University. My research combines engineering with molecular biology to
+  develop new ways to study biological processes ranging from molecular
+  biology to microbial ecology. Trying to develop that one cool tech that
+  will let me retire before 50 and make the world a better place---but first
+  and foremost let me retire.
+  
+  My primary interest is microorganisms. On the one hand, I am interested in
+  how the environment shapes their growth dynamics, their interaction with
+  surrounding genotypes, and how these influence their adaptation to 
+  antimicrobials. On the other hand, I am interested in the evolution of
+  biological membranes, particularly how membrane proteins like AcrAB-TolC 
+  change the electrical properties of biological membranes, and develop
+  technology that can detect changes in such properties.
+  
+  While I am a biologist, my research is often driven by curiosity and not
+  constrained to a specific discipline. And so, I find myself oscillating
+  between microbes, software engineering, DIY tech development and back. Some
+  people like mixing pineapple and pizza (...), I like mixing these where
+  possible. If you want to know more, check some of my research projects
+  below.
+   """
+#[[params.introduction.paragraph]]
+#  text=""" Pellentesque nec nam aliquam sem et tortor consequat id porta.
+#	Viverra suspendisse potenti nullam ac. Leo vel orci porta non pulvinar neque laoreet.
+#	Nulla facilisi nullam vehicula ipsum a arcu. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse.
+#	Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Dui sapien eget mi proin sed libero.
+#	Quam pellentesque nec nam aliquam sem et tortor consequat id. Aliquet lectus proin nibh nisl.
+#  """
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
+		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
+		project_page = "https://myprojecthomepage.com"
+		code_link = "https://coderepo.com"
+		blog_link = "https://ablogpost.com"
+
+ [[params.projects.project]]
+		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
+		description  = ""
+		project_page = "https://myprojecthomepage.com"
+		code_link = "https://coderepo.com"
+		blog_link = ""
+
+ [[params.projects.project]]
+		name = "Integer eget aliquet nibh praesent tristique magna"
+		description  = ""
+		project_page = "https://myprojecthomepage.com"
+		code_link = ""
+		blog_link = "https://ablogpost.com"
+
+
+[[params.publications]]
+  year="2021"
+  
+  [[params.publications.paper]]
+		name = "The Antibiotic Dosage of Fastest Resistance Evolution: gene amplifications underpinning the inverted-U"
+		authors = "__Carlos Reding__, Pablo Catalán, Gunther Jansen, Tobias Bergmiller, Philip Rosenstiel, Hinrich Schulenberg, Robert Beardmore"
+		dest  = "*Molecular Biology & Evolution*"
+		link = "https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab025/6161781"
+		code_link = ""
+		blog_link = ""
+		press_link = ""
+		pdf_link = "https://academic.oup.com/mbe/advance-article-pdf/doi/10.1093/molbev/msab025/36786722/msab025.pdf"
+
+
+[[params.publications]]
+  year="2017"
+  
+  [[params.publications.paper]]
+		name = "The unconstrained evolution of fast and eﬃcient antibiotic-resistant bacterial genomes"
+		authors = "__C. Reding-Roman__, S. Duxbury, M. Hewlett, F. Gori, I. Gudelj and R. Beardmore"
+		dest  = "*Nature Ecology & Evolution*"
+		link = "https://www.nature.com/articles/s41559-016-0050"
+		code_link = ""
+		blog_link = ""
+		press_link = "https://nature.altmetric.com/details/15948113/news"
+		pdf_link = "2017_Reding.pdf"
+
+[[params.publications]]
+  year="2015"
+  
+  [[params.publications.paper]]
+		name = "Using a Sequential Regimen to Eliminate Bacteria at Sub-Lethal Antibiotic Dosages"
+		authors = "A. Fuentes-Hernandez, J. Plucain, F. Gori, R. Peña-Miller, __C. Reding__, G. Jansen, H. Schulenberg, I. Gudelj, and R. Beardmore"
+		dest  = "*PLoS Biology*"
+		link = "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002104"
+		code_link = ""
+		blog_link = ""
+		press_link = "https://www.bbc.com/news/health-32218624"
+		pdf_link = "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1002104&type=printable"
+
+[[params.publications]]
+  year="2014"
+  
+  [[params.publications.paper]]
+		name = "Testing the optimality properties of a dual antibiotic treatment in a two-locus, two-allele model"
+		authors = "R. Peña-Miller, A. Fuentes-Hernandez, __C. Reding__, I. Gudelj and R. Beardmore"
+		dest  = "*Journal of the Royal Society Interface*"
+		link = "https://royalsocietypublishing.org/doi/abs/10.1098/rsif.2013.1035"
+		code_link = ""
+		blog_link = ""
+		press_link = ""
+		pdf_link = "https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2013.1035"
+
+
+[[params.publications]]
+  year="Preprints"
+
+  [[params.publications.paper]]
+    name = "Neighbours can modulate drug diffusion and change antimicrobial sensitivity of specific bacteria"
+    authors = "__Carlos Reding__"
+    dest  = "bioRxiv *(in review)*"
+    link = "https://www.biorxiv.org/cgi/content/short/2020.12.14.422780v4"
+    code_link = "https://github.com/rc-reding/papers/tree/master/EvolProof_2020"
+    blog_link = ""
+    press_link = "https://www.biorxiv.org/content/10.1101/2020.12.14.422780v4.full.pdf"
+
+  [[params.publications.paper]]
+    name = "Fitness competition assays can fail to predict plasmid maintenance in ‘unfit’ bacterial populations"
+    authors = "__Carlos Reding__"
+    dest  = "bioRxiv *(in review)*"
+    link = "https://www.biorxiv.org/content/10.1101/810259v5"
+    code_link = ""
+    blog_link = ""
+	press_link = ""
+	pdf_link = "https://www.biorxiv.org/content/10.1101/810259v5.full.pdf"
+	
+  [[params.publications.paper]]
+    name = "Imaging Fisher travelling waves in antibiograms: emergence of antibiotic-resistance patterns"
+    authors = "__Carlos Reding+__ , Mark Hewlett+ , Tobias Bergmiller, Ivana Gudelj, Robert Beardmore"
+    dest  = "bioRxiv *(in review)*"
+    link = "https://www.biorxiv.org/content/10.1101/806232v1"
+    code_link = ""
+    blog_link = ""
+	press_link = ""
+	pdf_link = "https://www.biorxiv.org/content/10.1101/806232v1.full.pdf"
+	
+  [[params.publications.paper]]
+    name = "Antibiotic resistance phenotypes exhibit diminishing returns in the chromosomal copy number of a scalable effux operon"
+    authors = "Pablo Catalán+ , __Carlos Reding+__ , Robert Beardmore"
+    dest  = ""
+    link = ""
+    code_link = ""
+    blog_link = ""
+	press_link = ""
+	pdf_link = ""
+	
+[[params.publications]]
+  year="PhD Thesis"
+  
+  [[params.publications.paper]]
+  name = "Ecological conditions leading to the seep of antibiotic resistance genes in the model-type bacterium Escherichia coli"
+  authors = "__R.C. Reding Roman__"
+  dest = "University of Exeter, United Kingdom"
+  link = "https://ore.exeter.ac.uk/repository/handle/10871/19693"
+  code_link = ""
+  blog_link = ""
+  press_link = ""
+  pdf_link = "https://ore.exeter.ac.uk/repository/bitstream/handle/10871/19693/RedingRomanR.pdf?sequence=1&isAllowed=n"
+
+	
+	
+	
+	
+	
+	
+	
+	
