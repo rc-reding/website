@@ -1,6 +1,6 @@
 baseURL = "https://stanford.edu/~reding/"
 languageCode = "en-gb"
-title = "Carlos Reding, PhD"
+title = "Carlos Reding, PhD "
 theme = "avicenna"
 #googleAnalytics = "UA-1234-6"
 #timeout=3000
@@ -36,28 +36,33 @@ theme = "avicenna"
   url = "https://linkedin.com/in/rc-reding/"
 
 
+#   I am interested in the
+#  evolution of biological membranes: why membranes are what they are, why
+#  they play the role they play, from an electrical standpoint.
+  
 [[params.introduction.paragraph]]
-  text="""I am a scientist within the Department of Genetics at Stanford
-  University. My research combines engineering with molecular biology to
-  develop new ways to study biological processes ranging from molecular
-  biology to microbial ecology. Trying to develop that one cool tech that
-  will let me retire before 50 and make the world a better place---but first
-  and foremost let me retire.
+  text="""Hi! I'm a postdoctoral research fellow in the Department of
+  Genetics at Stanford University, and my research combines engineering
+  with molecular biology to develop new ways to study biological processes---
+  ranging from molecular biology to microbial ecology. Although I love it,
+  I'm not always tinkering with electronics.
   
-  My primary interest is microorganisms. On the one hand, I am interested in
-  how the environment shapes their growth dynamics, their interaction with
-  surrounding genotypes, and how these influence their adaptation to 
-  antimicrobials. On the other hand, I am interested in the evolution of
-  biological membranes, particularly how membrane proteins like AcrAB-TolC 
-  change the electrical properties of biological membranes, and develop
-  technology that can detect changes in such properties.
+  My research is curiosity-driven, and I'm particularly interested in
+  microorganisms: How the environment shapes their growth dynamics, their
+  interaction with surrounding genotypes; and how these influence their
+  adaptation to antimicrobials. And also, what technologies can be developed
+  to study them! Overall, I combine mathematical modelling with engineering,
+  molecular biology and experimental evolution to study them. And sometimes I
+  even manage to create some new, [useful technologies](http://mmems.org/limo/).
   
-  While I am a biologist, my research is often driven by curiosity and not
-  constrained to a specific discipline. And so, I find myself oscillating
-  between microbes, software engineering, DIY tech development and back. Some
-  people like mixing pineapple and pizza (...), I like mixing these where
-  possible. If you want to know more, check some of my research projects
-  below.
+  Just because I'm a biologist doesn't mean I can't have fun, so my research
+  is not constrained to a specific discipline. And so, I find myself
+  oscillating between microbes, software engineering, DIY tech development and
+  back. Some people like [mixing pineapple and
+  pizza](https://soyummy.com/pineapple-pizza-history/). I like mixing these
+  disciplines where possible. If you want to know more, check some of my
+  research projects below. Note this website is constantly evolving until 
+  I manage to understand how [Hugo](https://gohugo.io/) works.
    """
 #[[params.introduction.paragraph]]
 #  text=""" Pellentesque nec nam aliquam sem et tortor consequat id porta.
@@ -69,29 +74,39 @@ theme = "avicenna"
 
 [[params.projects]]
 	[[params.projects.project]]
-		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
-		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
-		project_page = "https://myprojecthomepage.com"
-		code_link = "https://coderepo.com"
-		blog_link = "https://ablogpost.com"
+		name = "Under development..."
+#	[[params.projects.project]]
+#		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
+#		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
+#		project_page = "https://myprojecthomepage.com"
+#		code_link = "https://coderepo.com"
+#		blog_link = "https://ablogpost.com"
 
- [[params.projects.project]]
-		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
-		description  = ""
-		project_page = "https://myprojecthomepage.com"
-		code_link = "https://coderepo.com"
-		blog_link = ""
+# [[params.projects.project]]
+#		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
+#		description  = ""
+#		project_page = "https://myprojecthomepage.com"
+#		code_link = "https://coderepo.com"
+#		blog_link = ""
 
- [[params.projects.project]]
-		name = "Integer eget aliquet nibh praesent tristique magna"
-		description  = ""
-		project_page = "https://myprojecthomepage.com"
-		code_link = ""
-		blog_link = "https://ablogpost.com"
+# [[params.projects.project]]
+#		name = "Integer eget aliquet nibh praesent tristique magna"
+#		description  = ""
+#		project_page = "https://myprojecthomepage.com"
+#		code_link = ""
+#		blog_link = "https://ablogpost.com"
 
+[[params.patents]]
+  year = "2019"
+  [[params.patents.application]]
+  		name = "Test Apparatus"
+		authors = "Robert Beardmore, Ivana Beardmore, Kai Longshaw, __Carlos Reding__"
+		dest = "WO 2020/165582 A1 WIPO (PCT)"
+		link = "https://patents.google.com/patent/WO2020165582A1/en?oq=WO2020165582A1"
+		pdf_link = "https://patentimages.storage.googleapis.com/f5/9e/a8/22110711018d4f/WO2020165582A1.pdf"
 
 [[params.publications]]
-  year="2021"
+  year = "2021"
   
   [[params.publications.paper]]
 		name = "The Antibiotic Dosage of Fastest Resistance Evolution: gene amplifications underpinning the inverted-U"
@@ -105,7 +120,7 @@ theme = "avicenna"
 
 
 [[params.publications]]
-  year="2017"
+  year = "2017"
   
   [[params.publications.paper]]
 		name = "The unconstrained evolution of fast and eﬃcient antibiotic-resistant bacterial genomes"
@@ -115,10 +130,10 @@ theme = "avicenna"
 		code_link = ""
 		blog_link = ""
 		press_link = "https://nature.altmetric.com/details/15948113/news"
-		pdf_link = "2017_Reding.pdf"
+		pdf_link = "files/2017_Reding.pdf"
 
 [[params.publications]]
-  year="2015"
+  year = "2015"
   
   [[params.publications.paper]]
 		name = "Using a Sequential Regimen to Eliminate Bacteria at Sub-Lethal Antibiotic Dosages"
@@ -131,7 +146,7 @@ theme = "avicenna"
 		pdf_link = "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1002104&type=printable"
 
 [[params.publications]]
-  year="2014"
+  year = "2014"
   
   [[params.publications.paper]]
 		name = "Testing the optimality properties of a dual antibiotic treatment in a two-locus, two-allele model"
@@ -145,7 +160,7 @@ theme = "avicenna"
 
 
 [[params.publications]]
-  year="Preprints"
+  year = "Preprints"
 
   [[params.publications.paper]]
     name = "Neighbours can modulate drug diffusion and change antimicrobial sensitivity of specific bacteria"
@@ -154,7 +169,8 @@ theme = "avicenna"
     link = "https://www.biorxiv.org/cgi/content/short/2020.12.14.422780v4"
     code_link = "https://github.com/rc-reding/papers/tree/master/EvolProof_2020"
     blog_link = ""
-    press_link = "https://www.biorxiv.org/content/10.1101/2020.12.14.422780v4.full.pdf"
+	press_link = ""
+    pdf_link = "https://www.biorxiv.org/content/10.1101/2020.12.14.422780v4.full.pdf"
 
   [[params.publications.paper]]
     name = "Fitness competition assays can fail to predict plasmid maintenance in ‘unfit’ bacterial populations"
